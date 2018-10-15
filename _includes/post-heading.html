@@ -8,6 +8,7 @@
 		{{ include.post.title }}
 	</a>
 </h1>
+<p>by {{ include.post.author }}</p>
 <time datetime="{{ include.post.date | date_to_xmlschema }}">
 	{{ include.post.date | date: "%B %-d, %Y" }}
 </time>

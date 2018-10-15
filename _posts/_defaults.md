@@ -1,5 +1,6 @@
 ---
 title:
+author:
 categories:
 date:
 featured_image:
