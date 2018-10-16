@@ -9,7 +9,7 @@ newsletter_action:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /baum_recipes.jpg
 description: A collection of the favorite recipes from the Baum Family
 author:
   name:
