@@ -1,6 +1,7 @@
 ---
 date: 2017-01-06
 title: Lemon Cake
+author: Brian
 categories:
   - Cakes
 featured_image: https://source.unsplash.com/NAN22eh754c/1560x940

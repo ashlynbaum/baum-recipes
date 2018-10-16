@@ -56,6 +56,15 @@ defaults:
     values:
       layout: "default"
       push_sidebar_down: true
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+collections:
+  authors:
+    output: true
 
 plugins:
   - jekyll-sitemap

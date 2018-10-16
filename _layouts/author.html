@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h2>{{ page.position }}</h2>
+
+{{ content }}
+
+<h2>Recipes</h2>
+  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for recipe in filtered_posts %}
+    <div class="recipes">
+        <div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
+          <a href="{{ recipe.url }}"><span>{{ recipe.title }}</span></a>
+        </div>
+    </div>
+  {% endfor %}
