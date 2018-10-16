@@ -9,7 +9,7 @@
 	</a>
 </h1>
 
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% assign author = site.authors | where: 'short_name', include.post.author | first %}
   {% if author %}
     by <a href="{{ author.url }}">{{ author.name }}</a>
   {% endif %}
