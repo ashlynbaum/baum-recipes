@@ -1,0 +1,15 @@
+---
+layout: default
+title: authors
+---
+<h1>Recipie Authors</h1>
+
+<ul class="author-list">
+  {% for author in site.authors %}
+    <li class="author-list-name button">
+      <a href="{{ author.url }}"><h2>{{ author.name }}</h2></a>
+      <!-- <h3>{{ author.position }}</h3> -->
+      <!-- <p>{{ author.content | markdownify }}</p> -->
+    </li>
+  {% endfor %}
+</ul>

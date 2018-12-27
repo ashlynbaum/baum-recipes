@@ -53,4 +53,7 @@ hr {
 a {
 	text-decoration: none;
 	color: #007eff;
+	:hover {
+		color: #9e9e9e;
+	}
 }
